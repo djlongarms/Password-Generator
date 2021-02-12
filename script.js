@@ -52,4 +52,12 @@ document.getElementById('generate').addEventListener('click', () => {
     }
   }
 
+  let password = '';
+
+  for (let i = 0; i < length; i++) {
+    password += choices[Math.floor(Math.random() * choices.length)]
+  }
+
+  document.getElementById('password').textContent = password
+
 })
