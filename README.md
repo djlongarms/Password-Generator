@@ -6,3 +6,5 @@ Length must be between 8 and 128 characters.
 The possible character types are lowercase, uppercase, numbers, and special characters.
 
 At least one character type must be chosen before the password will generate, but they can choose any combination of the options.
+
+Link to the site: https://djlongarms.github.io/Password-Generator/
