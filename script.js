@@ -45,4 +45,11 @@ document.getElementById('generate').addEventListener('click', () => {
     }
   }
 
+  if (special) {
+    let specials = ['\ ', '\!', '\"', '\#', '\$', '\%', '\&', '\'', '\(', '\)', '\*', '\+', '\,', '\-', '\.', '\/', '\:', '\;', '\<', '\=', '\>', '\?', '\@', '\[', '\\', '\]', '\^', '\_', '\`', '\{', '\|', '\}', '\~']
+    for (let i = 0; i < specials.length; i++) {
+      choices.push(specials[i])
+    }
+  }
+
 })
