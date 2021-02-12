@@ -13,13 +13,9 @@ document.getElementById('generate').addEventListener('click', () => {
 
   while (!(lower || upper || number || special)) {
     lower = confirm('Do you want to include lowercase letters? (OK for yes, Cancel for no)')
-    console.log(lower)
     upper = confirm('Do you want to include uppercase letters? (OK for yes, Cancel for no)')
-    console.log(upper)
     number = confirm('Do you want to include numbers? (OK for yes, Cancel for no)')
-    console.log(number)
     special = confirm('Do you want to include special characters? (OK for yes, Cancel for no)')
-    console.log(special)
   }
 
   let choices = []
